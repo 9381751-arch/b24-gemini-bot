@@ -1,0 +1,17 @@
+{
+  "name": "b24-gemini-bot",
+  "version": "1.0.0",
+  "description": "Bitrix24 bot powered by Gemini API",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^0.7.0",
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.2"
+  }
+}
